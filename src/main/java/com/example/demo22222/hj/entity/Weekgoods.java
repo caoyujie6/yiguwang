@@ -3,8 +3,8 @@ package com.example.demo22222.hj.entity;
 
 public class Weekgoods {
 
-  private long weekgoodsid;
-  private long gid;
+  private long weekgoodsid; //本周爆品ID
+  private long gid;         //外键：商品ID
 
 
   public long getWeekgoodsid() {

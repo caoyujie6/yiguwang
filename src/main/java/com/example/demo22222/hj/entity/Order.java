@@ -3,14 +3,14 @@ package com.example.demo22222.hj.entity;
 
 public class Order {
 
-  private long oid;
-  private double amount;
-  private double freight;
-  private java.sql.Date transporttime;
-  private String state;
-  private java.sql.Date placeordertime;
-  private String orderclasses;
-  private long uid;
+  private long oid;     //订单ID
+  private double amount;//订单总金额
+  private double freight;//配送费用
+  private java.sql.Date transporttime;//配送时间
+  private String state;//订单状态
+  private java.sql.Date placeordertime;//下单时间
+  private String orderclasses;//订单类别
+  private long uid;          //外键：用户ID
 
 
   public long getOid() {

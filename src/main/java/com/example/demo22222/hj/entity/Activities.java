@@ -3,10 +3,10 @@ package com.example.demo22222.hj.entity;
 //000
 public class Activities {
 
-  private long activityid;
-  private String activity;
-  private double originalprice;
-  private double current_Price;
+  private long activityid;   //活动
+  private String activity;   //活动类别
+  private double originalprice; //原价
+  private double current_Price; //特价
 
 
   public long getActivityid() {

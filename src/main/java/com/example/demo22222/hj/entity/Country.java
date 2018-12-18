@@ -4,8 +4,8 @@ package com.example.demo22222.hj.entity;
 //进出口国
 public class Country {
 
-  private long countryid;       //进出口国id
-  private String importingcountry;        //进出口国
+  private long countryid;            //进出口国id
+  private String importingcountry;   //进出口国
   private String description;       //描述
 
 

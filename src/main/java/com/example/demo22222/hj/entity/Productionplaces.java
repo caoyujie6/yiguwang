@@ -3,9 +3,9 @@ package com.example.demo22222.hj.entity;
 
 public class Productionplaces {
 
-  private long pid;
-  private String productionplace;
-  private String description;
+  private long pid; //
+  private String productionplace;//
+  private String description; //
 
 
   public long getPid() {

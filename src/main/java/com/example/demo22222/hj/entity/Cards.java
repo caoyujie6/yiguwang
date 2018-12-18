@@ -8,11 +8,11 @@ public class Cards {
   private String cardnumber;        //卡号
   private String cardpassword;        //卡密码
   private String cardclasses;       //卡类别
-  private double money;       //金额
-  private java.sql.Date starttime;        //开始时间
-  private java.sql.Date endtime;        //结束时间
+  private double money;              //金额
+  private java.sql.Date starttime;  //开始时间
+  private java.sql.Date endtime;   //结束时间
   private String cardstate;       //卡状态
-  private long uid;       //用户id
+  private long uid;               //用户id
 
 
   public long getCid() {

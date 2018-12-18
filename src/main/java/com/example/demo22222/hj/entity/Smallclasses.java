@@ -3,8 +3,8 @@ package com.example.demo22222.hj.entity;
 
 public class Smallclasses {
 
-  private long smallid;
-  private String smallclasses;
+  private long smallid;  //小类别ID
+  private String smallclasses; //小类别名称
 
 
   public long getSmallid() {

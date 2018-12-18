@@ -3,20 +3,20 @@ package com.example.demo22222.hj.entity;
 
 public class User {
 
-  private long uid;
-  private String name;
-  private String password;
-  private String sex;
-  private java.sql.Date birth;
-  private String telephone;
-  private String phone;
-  private String email;
-  private String msn;
-  private String qq;
-  private String workunit;
-  private double balance;
-  private long diyongjuan;
-  private long lipinka;
+  private long uid;      //用户ID
+  private String name;   //用户名
+  private String password;//密码
+  private String sex;     //性别
+  private java.sql.Date birth;//出生日期
+  private String telephone;  //手机号码
+  private String phone;    //固定电话
+  private String email;    //Email
+  private String msn;      //MSN（聊天工具）
+  private String qq;       //QQ号码
+  private String workunit; //工作单位
+  private double balance;  //余额
+  private long diyongjuan; //抵用卷（张）
+  private long lipinka;    //礼品卡（张）
 
 
   public long getUid() {
