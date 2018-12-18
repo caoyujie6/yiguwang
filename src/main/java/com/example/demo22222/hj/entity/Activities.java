@@ -1,4 +1,4 @@
-package com.sample;
+package com.example.demo22222.hj.entity;
 
 //000
 public class Activities {

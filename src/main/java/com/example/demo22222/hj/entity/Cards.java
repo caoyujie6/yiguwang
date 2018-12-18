@@ -1,17 +1,18 @@
-package com.sample;
+package com.example.demo22222.hj.entity;
 
 
+//卡卷
 public class Cards {
 
-  private long cid;
-  private String cardnumber;
-  private String cardpassword;
-  private String cardclasses;
-  private double money;
-  private java.sql.Date starttime;
-  private java.sql.Date endtime;
-  private String cardstate;
-  private long uid;
+  private long cid;       //卡id
+  private String cardnumber;        //卡号
+  private String cardpassword;        //卡密码
+  private String cardclasses;       //卡类别
+  private double money;       //金额
+  private java.sql.Date starttime;        //开始时间
+  private java.sql.Date endtime;        //结束时间
+  private String cardstate;       //卡状态
+  private long uid;       //用户id
 
 
   public long getCid() {
