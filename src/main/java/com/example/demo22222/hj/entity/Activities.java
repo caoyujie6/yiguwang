@@ -1,6 +1,6 @@
 package com.sample;
 
-
+//000
 public class Activities {
 
   private long activityid;
