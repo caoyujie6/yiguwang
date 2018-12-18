@@ -1,11 +1,12 @@
 package com.example.demo22222.hj.entity;
 
 
+//商品详情图
 public class Detailspicture {
 
-  private long tid;
-  private String path;
-  private long gid;
+  private long tid;       //详情图id
+  private String path;        //图片路径
+  private long gid;       //商品id
 
 
   public long getTid() {
