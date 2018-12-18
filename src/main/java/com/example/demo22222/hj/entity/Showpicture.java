@@ -3,9 +3,9 @@ package com.example.demo22222.hj.entity;
 
 public class Showpicture {
 
-  private long pid;     //图片ID
-  private String path;  //路径
-  private long gid;     //外键：商品ID
+  private long pid;      //图片ID
+  private String path;   //路径
+  private long gid;      //外键：商品ID
 
 
   public long getPid() {

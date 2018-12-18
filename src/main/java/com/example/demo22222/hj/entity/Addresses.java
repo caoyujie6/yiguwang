@@ -3,9 +3,9 @@ package com.example.demo22222.hj.entity;
 
 public class Addresses {
 
-  private long aid; //地址id
-  private long uid; //地址
-  private String address; //外键：用户id
+  private long aid;         //地址id
+  private long uid;         //地址
+  private String address;   //外键：用户id
 
 
   public long getAid() {

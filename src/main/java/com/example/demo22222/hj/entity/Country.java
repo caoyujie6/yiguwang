@@ -6,7 +6,7 @@ public class Country {
 
   private long countryid;            //进出口国id
   private String importingcountry;   //进出口国
-  private String description;       //描述
+  private String description;        //描述
 
 
   public long getCountryid() {

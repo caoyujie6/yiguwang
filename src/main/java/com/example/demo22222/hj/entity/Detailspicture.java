@@ -4,9 +4,9 @@ package com.example.demo22222.hj.entity;
 //商品详情图
 public class Detailspicture {
 
-  private long tid;       //详情图id
+  private long tid;       //详情图ID
   private String path;    //图片路径
-  private long gid;       //商品id
+  private long gid;       //商品ID
 
 
   public long getTid() {
