@@ -5,12 +5,20 @@ public class Foods {
 
   private long fid;
   private String foodname;
+  private String foodclasses;
   private long hits;
   private String material;
   private String ingredients;
   private String kitchenware;
   private String step;
 
+  public String getFoodclasses() {
+    return foodclasses;
+  }
+
+  public void setFoodclasses(String foodclasses) {
+    this.foodclasses = foodclasses;
+  }
 
   public long getFid() {
     return fid;
