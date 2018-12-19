@@ -30,3 +30,7 @@ spring:
     redis:
       host: localhost
       port: 6379
+#solrµƒ≈‰÷√
+    data:
+       solr:
+          host: http://localhost:8983/solr
