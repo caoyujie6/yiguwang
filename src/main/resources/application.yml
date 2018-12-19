@@ -1,32 +1,32 @@
-#.yml -Ìá¹©¸øÁË½á¹¹»¯¼°ÆäÇ¶Ì×µÄ¸ñÊ½
+#.yml -æä¾›ç»™äº†ç»“æ„åŒ–åŠå…¶åµŒå¥—çš„æ ¼å¼
 #properties sever.port=8081
 #server.tomcat.uri-encoding=utf-8
-#Èç¹ûÅäÖÃÎÄ¼ş·ÅÔÚresourcesÎÄ¼şÖĞ£¬springboot»á×Ô¶¯½øĞĞ¶ÁÈ¡
+#å¦‚æœé…ç½®æ–‡ä»¶æ”¾åœ¨resourcesæ–‡ä»¶ä¸­ï¼Œspringbootä¼šè‡ªåŠ¨è¿›è¡Œè¯»å–
 server:
   port: 8081
 
   tomcat:
     uri-encoding: UTF-8
-#Êı¾İÔ´ÓëjpaÅäÖÃ
+#æ•°æ®æºä¸jpaé…ç½®
 spring:
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/a?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username: root
       password: 123456
-      #druidÅäÖÃ
+      #druidé…ç½®
       type: com.alibaba.druid.pool.DruidDataSource
-      #ÅäÖÃ¼à¿ØÍ³¼ÆÀ¹½ØµÃfilters£¬Èç¹û²»Ğ´¼à¿ØÒ³ÃæÖĞµÃsqlÎŞ·¨½øĞĞÍ³¼Æ¡£wallÓÃÓÚ·À»ğÇ½
+      #é…ç½®ç›‘æ§ç»Ÿè®¡æ‹¦æˆªå¾—filtersï¼Œå¦‚æœä¸å†™ç›‘æ§é¡µé¢ä¸­å¾—sqlæ— æ³•è¿›è¡Œç»Ÿè®¡ã€‚wallç”¨äºé˜²ç«å¢™
       filters: stat , wall , log4j
-      #Í¨¹ıconnectionPropertiesÊôĞÔÀ´´ò¿ªmergeSql¹¦ÄÜ£¬¼à²âÂısqlµÃ¼ÇÂ¼
+      #é€šè¿‡connectionPropertieså±æ€§æ¥æ‰“å¼€mergeSqlåŠŸèƒ½ï¼Œç›‘æµ‹æ…¢sqlå¾—è®°å½•
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMills=5000
 
     jpa:
        database: mysql
-       show-sql: true  #ÏÔÊ¾sqlÓï¾ä
+       show-sql: true  #æ˜¾ç¤ºsqlè¯­å¥
        hibernate:
-         ddl-auto: update #Ê¹ÓÃhibernateÀ´×Ô¶¯¸úĞÂ±í½á¹¹£¬Èç¹ûÊı¾İ±í²»´æÔÚÔò×Ô¶¯´´½¨£¬Èç¹ûĞŞ¸ÄÁË±í½á¹¹£¬ÔÚ³ÌĞòÆô¶¯Ê±ÔòÖ´ĞĞ±í½á¹¹µÄÍ¬²½¸üĞÂ
-#redisÅäÖÃ
+         ddl-auto: update #ä½¿ç”¨hibernateæ¥è‡ªåŠ¨è·Ÿæ–°è¡¨ç»“æ„ï¼Œå¦‚æœæ•°æ®è¡¨ä¸å­˜åœ¨åˆ™è‡ªåŠ¨åˆ›å»ºï¼Œå¦‚æœä¿®æ”¹äº†è¡¨ç»“æ„ï¼Œåœ¨ç¨‹åºå¯åŠ¨æ—¶åˆ™æ‰§è¡Œè¡¨ç»“æ„çš„åŒæ­¥æ›´æ–°
+#redisé…ç½®
     redis:
       host: localhost
       port: 6379
