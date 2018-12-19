@@ -12,7 +12,16 @@ public class Goods {
   private long countryid;       //外键：进口国ID
   private long pid;             //外键：产地ID
   private long smallid;         //外键：小类别ID
+  private long bigid;           //外键：大类别ID
   private long activityid;      //外键：活动ID
+
+  public long getBigid() {
+    return bigid;
+  }
+
+  public void setBigid(long bigid) {
+    this.bigid = bigid;
+  }
 
   public long getSmallid() {
     return smallid;
