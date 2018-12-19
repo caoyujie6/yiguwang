@@ -1,32 +1,32 @@
-#.yml -提供给了结构化及其嵌套的格式
+#.yml -�ṩ���˽ṹ������Ƕ�׵ĸ�ʽ
 #properties sever.port=8081
 #server.tomcat.uri-encoding=utf-8
-#如果配置文件放在resources文件中，springboot会自动进行读取
+#��������ļ�����resources�ļ��У�springboot���Զ����ж�ȡ
 server:
   port: 8081
 
   tomcat:
     uri-encoding: UTF-8
-#数据源与jpa配置
+#����Դ��jpa����
 spring:
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/a?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username: root
       password: 123456
-      #druid配置
+      #druid����
       type: com.alibaba.druid.pool.DruidDataSource
-      #配置监控统计拦截得filters，如果不写监控页面中得sql无法进行统计。wall用于防火墙
+      #���ü��ͳ�����ص�filters�������д���ҳ���е�sql�޷�����ͳ�ơ�wall���ڷ���ǽ
       filters: stat , wall , log4j
-      #通过connectionProperties属性来打开mergeSql功能，监测慢sql得记录
+      #ͨ��connectionProperties��������mergeSql���ܣ������sql�ü�¼
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMills=5000
 
     jpa:
        database: mysql
-       show-sql: true  #显示sql语句
+       show-sql: true  #��ʾsql���
        hibernate:
-         ddl-auto: update #使用hibernate来自动跟新表结构，如果数据表不存在则自动创建，如果修改了表结构，在程序启动时则执行表结构的同步更新
-#redis配置
+         ddl-auto: update #ʹ��hibernate���Զ����±�ṹ��������ݱ��������Զ�����������޸��˱�ṹ���ڳ�������ʱ��ִ�б�ṹ��ͬ������
+#redis����
     redis:
       host: localhost
       port: 6379

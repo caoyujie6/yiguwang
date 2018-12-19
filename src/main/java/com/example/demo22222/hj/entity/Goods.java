@@ -3,17 +3,33 @@ package com.example.demo22222.hj.entity;
 
 public class Goods {
 
-  private long gid;
-  private String commodity;
-  private double marketprice;
-  private double price;
-  private String area;
-  private String specification;
-  private long countryid;
-  private long pid;
-  private long bigid;
-  private long activityid;
+  private long gid;             //商品ID
+  private String commodity;     //商品名称
+  private double marketprice;   //市场价
+  private double price;         //商城价
+  private String area;          //配送范围
+  private String specification; //规格
+  private long countryid;       //外键：进口国ID
+  private long pid;             //外键：产地ID
+  private long smallid;         //外键：小类别ID
+  private long bigid;           //外键：大类别ID
+  private long activityid;      //外键：活动ID
 
+  public long getBigid() {
+    return bigid;
+  }
+
+  public void setBigid(long bigid) {
+    this.bigid = bigid;
+  }
+
+  public long getSmallid() {
+    return smallid;
+  }
+
+  public void setSmallid(long smallid) {
+    this.smallid = smallid;
+  }
 
   public long getGid() {
     return gid;
@@ -85,16 +101,6 @@ public class Goods {
   public void setPid(long pid) {
     this.pid = pid;
   }
-
-
-  public long getBigid() {
-    return bigid;
-  }
-
-  public void setBigid(long bigid) {
-    this.bigid = bigid;
-  }
-
 
   public long getActivityid() {
     return activityid;

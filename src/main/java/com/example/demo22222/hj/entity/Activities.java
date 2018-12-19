@@ -1,13 +1,10 @@
 package com.example.demo22222.hj.entity;
 
-//000
 public class Activities {
 
-  private long activityid;
-  private String activity;
-  private double originalprice;
-  private double current_Price;
-
+  private long activityid;      //活动
+  private String activity;      //活动类别
+  private double originalprice; //特价
 
   public long getActivityid() {
     return activityid;
@@ -17,7 +14,6 @@ public class Activities {
     this.activityid = activityid;
   }
 
-
   public String getActivity() {
     return activity;
   }
@@ -26,7 +22,6 @@ public class Activities {
     this.activity = activity;
   }
 
-
   public double getOriginalprice() {
     return originalprice;
   }
@@ -34,14 +29,4 @@ public class Activities {
   public void setOriginalprice(double originalprice) {
     this.originalprice = originalprice;
   }
-
-
-  public double getCurrent_Price() {
-    return current_Price;
-  }
-
-  public void setCurrent_Price(double current_Price) {
-    this.current_Price = current_Price;
-  }
-
 }
