@@ -14,7 +14,7 @@ public class Foods {
 
   public String getFoodclasses() {
     return foodclasses;
-  }
+  } 
 
   public void setFoodclasses(String foodclasses) {
     this.foodclasses = foodclasses;
