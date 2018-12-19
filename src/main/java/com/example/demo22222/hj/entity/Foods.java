@@ -3,18 +3,18 @@ package com.example.demo22222.hj.entity;
 
 public class Foods {
 
-  private long fid;
-  private String foodname;
-  private String foodclasses;
-  private long hits;
-  private String material;
-  private String ingredients;
-  private String kitchenware;
-  private String step;
+  private long fid;             //食品id
+  private String foodname;      //食品名称
+  private String foodclasses;   //食品类别
+  private long hits;            //点赞数
+  private String material;      //用料
+  private String ingredients;   //辅料
+  private String kitchenware;   //厨具
+  private String step;          //步骤
 
   public String getFoodclasses() {
     return foodclasses;
-  } 
+  }
 
   public void setFoodclasses(String foodclasses) {
     this.foodclasses = foodclasses;
