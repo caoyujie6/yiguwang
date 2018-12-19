@@ -8,9 +8,9 @@ public class Foods {
   private String foodclasses;
   private long hits;
   private String material;
-  private String ingredients;
-  private String kitchenware;
-  private String step;
+  private String ingredients;//佐料
+  private String kitchenware;//厨房用具
+  private String step;//步骤
 
   public String getFoodclasses() {
     return foodclasses;
